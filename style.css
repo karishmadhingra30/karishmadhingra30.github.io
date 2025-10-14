@@ -11494,13 +11494,26 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+/* Add these enhanced styles to your existing style.css or replace the relevant sections */
 
+/* Import a modern font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap');
 
-/* Override base font */
+/* Override base font and color scheme */
 :root {
   --bs-body-font-family: 'Poppins', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   --heading-font: 'Playfair Display', serif;
+  
+  /* Custom Color Palette */
+  --wine-pink: #9d4e5d;
+  --sage-green: #9caf88;
+  --terracotta: #d97642;
+  --wine-pink-light: #b8717e;
+  --sage-green-light: #b8caa5;
+  --terracotta-light: #e69668;
+  --wine-pink-dark: #7d3d4a;
+  --sage-green-dark: #7d8f6e;
+  --terracotta-dark: #c45f2a;
 }
 
 body {
@@ -11540,13 +11553,13 @@ html {
 
 /* Bio Section Styling */
 .bio-section {
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background: linear-gradient(135deg, #f5e6e8 0%, #e8f0e3 100%);
   padding: 6rem 0;
   animation: fadeIn 1.2s ease-in;
 }
 
 .bio-section .page-section-heading {
-  color: #2c3e50;
+  color: var(--wine-pink-dark);
   margin-bottom: 1rem;
   animation: slideInDown 0.8s ease-out;
   font-size: 2.5rem;
@@ -11555,7 +11568,7 @@ html {
 .bio-text {
   font-size: 1.1rem;
   line-height: 1.8;
-  color: #495057;
+  color: #5a5a5a;
   animation: fadeInUp 1s ease-out;
   animation-delay: 0.3s;
   opacity: 0;
@@ -11581,13 +11594,13 @@ html {
   width: 100%;
   max-width: 7rem;
   height: 0.25rem;
-  background-color: #1abc9c;
+  background-color: var(--terracotta);
   border-radius: 1rem;
   transition: all 0.3s ease;
 }
 
 .divider-custom .divider-custom-icon {
-  color: #1abc9c;
+  color: var(--terracotta);
   font-size: 2rem;
   animation: pulse 2s ease-in-out infinite;
 }
@@ -11614,38 +11627,47 @@ html {
 
 .btn-social:hover {
   transform: translateY(-5px) scale(1.1);
-  box-shadow: 0 8px 15px rgba(26, 188, 156, 0.3);
+  box-shadow: 0 8px 15px rgba(157, 78, 93, 0.4);
 }
 
 .btn-outline-primary {
-  border: 2px solid #1abc9c;
-  color: #1abc9c;
+  border: 2px solid var(--sage-green);
+  color: var(--sage-green-dark);
 }
 
 .btn-outline-primary:hover {
-  background-color: #1abc9c;
+  background-color: var(--sage-green);
   color: white;
+  border-color: var(--sage-green);
 }
 
 /* Enhanced Navigation */
 #mainNav {
   transition: all 0.3s ease;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: var(--wine-pink);
 }
 
 #mainNav .navbar-brand {
   font-family: 'Playfair Display', serif;
   font-size: 1.5rem;
   transition: all 0.3s ease;
+  color: #fff;
 }
 
 #mainNav .navbar-brand:hover {
   transform: scale(1.05);
+  color: var(--terracotta-light);
 }
 
 #mainNav .nav-link {
   position: relative;
   transition: all 0.3s ease;
+  color: #fff;
+}
+
+#mainNav .nav-link:hover {
+  color: var(--terracotta-light);
 }
 
 #mainNav .nav-link::after {
@@ -11655,7 +11677,7 @@ html {
   left: 50%;
   width: 0;
   height: 2px;
-  background-color: #1abc9c;
+  background-color: var(--terracotta);
   transition: all 0.3s ease;
   transform: translateX(-50%);
 }
