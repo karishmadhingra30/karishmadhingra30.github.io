@@ -1,22 +1,28 @@
 {
-	"movies": [
+	"books": [
 		{
-			"Title": "Lost In Translation",
-			"Director": "Sofia Coppola",
-			"Rating": "R",
-			"Year": "2003"
+			"Title": "Invisible Women",
+			"Author": "Caroline Criado Perez",
+			"Genre": "Non-Fiction",
+			"Tags": "Feminist, Data Bias, Gender Studies, Analytics"
 		},
 		{
-			"Title": "Casino Royale",
-			"Director": "Martin Campbell",
-			"Rating": "PG-13",
-			"Year": "2006"
+			"Title": "Independence",
+			"Author": "Chitra Banerjee Devakaruni",
+			"Genre": "Historical Fiction",
+			"Tags": "Feminist, Indian, Sisterhood, Culture "
 		},
 		{
-			"Title": "The Dark Knight",
-			"Director": "Christopher Nolan",
-			"Rating": "PG-13",
-			"Year": "2008"
+			"Title": "The Psychology of Money",
+			"Author": "Morgan Housel",
+			"Genre": "Non-Fiction",
+			"Tags": "Finance, Self-Help, Investing, Personal Development"
+		},
+		{
+			"Title": "The Cool, Gray City of Love",
+			"Author": "Gary Kamiya",
+			"Genre": "Non-Fiction",
+			"Tags": "City Potrait, San Francisco, History, Memoir, Travel"
 		}
 	]
 }
