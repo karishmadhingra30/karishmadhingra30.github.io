@@ -3,15 +3,15 @@
 ═══════════════════════════════════════════════════════════ */
 :root {
   --black:      #0D0D0D;
-  --white:      #F2F0EB;
-  --dim:        rgba(242, 240, 235, 0.45);
-  --faint:      rgba(242, 240, 235, 0.18);
+  --white:      #FFFFFF;
+  --dim:        rgba(255, 255, 255, 0.72);
+  --faint:      rgba(255, 255, 255, 0.38);
   --divider:    rgba(242, 240, 235, 0.07);
   --red:        #B01C33;
   --red-dark:   #5c0f1c;
   --red-deeper: #200508;
 
-  --serif:  'Cormorant Garant', Georgia, serif;
+  --serif:  'Cinzel', Georgia, serif;
   --sans:   'DM Sans', system-ui, sans-serif;
 }
 
@@ -30,7 +30,8 @@ body {
   background: var(--black);
   color: var(--white);
   font-family: var(--sans);
-  font-weight: 300;
+  font-weight: 400;
+  font-size: 17px;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
 }
@@ -84,8 +85,8 @@ img {
 
 .label {
   font-family: var(--sans);
-  font-size: 0.62rem;
-  font-weight: 500;
+  font-size: 0.72rem;
+  font-weight: 600;
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: var(--dim);
@@ -143,10 +144,9 @@ img {
 }
 
 .hero-tagline {
-  font-family: var(--serif);
-  font-style: italic;
-  font-size: clamp(0.9rem, 1.4vw, 1.2rem);
-  font-weight: 300;
+  font-family: var(--sans);
+  font-size: clamp(1rem, 1.6vw, 1.35rem);
+  font-weight: 400;
   color: var(--dim);
   line-height: 1.65;
   margin-bottom: 0.6rem;
@@ -154,7 +154,8 @@ img {
 
 .hero-sub {
   font-family: var(--sans);
-  font-size: 0.68rem;
+  font-size: 0.78rem;
+  font-weight: 500;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--faint);
@@ -193,15 +194,16 @@ img {
 
 .body-desc {
   font-family: var(--sans);
-  font-size: 0.85rem;
-  font-weight: 300;
+  font-size: 1rem;
+  font-weight: 400;
   color: var(--dim);
   line-height: 1.75;
   margin-bottom: 1.2rem;
 }
 
 .body-small {
-  font-size: 0.72rem;
+  font-size: 0.85rem;
+  font-weight: 400;
   color: var(--faint);
   line-height: 1.75;
 }
@@ -238,8 +240,8 @@ img {
 }
 
 .bridge-para {
-  font-size: 0.88rem;
-  font-weight: 300;
+  font-size: 1rem;
+  font-weight: 400;
   color: var(--dim);
   line-height: 1.85;
   margin-bottom: 1.4rem;
@@ -284,16 +286,16 @@ img {
 
 .proj-name {
   font-family: var(--sans);
-  font-size: 0.72rem;
-  font-weight: 500;
+  font-size: 0.82rem;
+  font-weight: 600;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--white);
 }
 
 .proj-detail {
-  font-size: 0.75rem;
-  font-weight: 300;
+  font-size: 0.88rem;
+  font-weight: 400;
   color: var(--dim);
   line-height: 1.6;
 }
@@ -373,8 +375,8 @@ img {
 }
 
 .arena-desc {
-  font-size: 0.8rem;
-  font-weight: 300;
+  font-size: 0.95rem;
+  font-weight: 400;
   color: var(--dim);
   line-height: 1.75;
 }
@@ -408,8 +410,8 @@ img {
 }
 
 .contact-val {
-  font-size: 0.85rem;
-  font-weight: 300;
+  font-size: 1rem;
+  font-weight: 400;
   color: var(--dim);
   line-height: 1.6;
 }
