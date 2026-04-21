@@ -1,0 +1,28 @@
+{
+  "books": [
+    {
+      "title": "Invisible Women",
+      "author": "Caroline Criado Perez",
+      "genre": "Non-Fiction",
+      "tags": ["Feminist", "Data Bias", "Gender Studies", "Analytics"]
+    },
+    {
+      "title": "Independence",
+      "author": "Chitra Banerjee Devakaruni",
+      "genre": "Historical Fiction",
+      "tags": ["Feminist", "Indian", "Sisterhood", "Culture"]
+    },
+    {
+      "title": "The Psychology of Money",
+      "author": "Morgan Housel",
+      "genre": "Non-Fiction",
+      "tags": ["Finance", "Self-Help", "Investing", "Personal Development"]
+    },
+    {
+      "title": "The Cool, Gray City of Love",
+      "author": "Gary Kamiya",
+      "genre": "Non-Fiction",
+      "tags": ["City Portrait", "San Francisco", "History", "Memoir"]
+    }
+  ]
+}
