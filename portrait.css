@@ -1,0 +1,35 @@
+.hero-visual {
+  position: relative;
+  min-height: 29rem;
+  display: grid;
+  place-items: center;
+  isolation: isolate;
+}
+
+.hero-visual .portrait {
+  position: absolute;
+  z-index: 0;
+  inset: 1.25rem 3.5rem 0;
+  width: calc(100% - 7rem);
+  height: calc(100% - 1.25rem);
+  object-fit: cover;
+  object-position: 50% 47%;
+  filter: contrast(1.05) grayscale(1);
+  opacity: .23;
+  border: 1px solid rgba(16, 21, 38, .35);
+}
+
+.hero-visual .signal-map {
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 860px) {
+  .hero-visual { min-height: 23rem; }
+  .hero-visual .portrait { inset: 1rem 15% 0; width: 70%; height: calc(100% - 1rem); }
+}
+
+@media (max-width: 560px) {
+  .hero-visual { min-height: 19rem; }
+  .hero-visual .portrait { inset: .5rem 21% 0; width: 58%; height: calc(100% - .5rem); opacity: .16; }
+}
